@@ -2,6 +2,7 @@
 layout: post
 title:  "Who is a Business Analyst?"
 author: Hoang Nguyen
+background: '/images/posts/who-is.jpg'
 ---
 From Wikipedia, a BA is someone who analyzes an organization or business domain and documents its business or processes or systems, assessing the business model or its integration with technology.
 

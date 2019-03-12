@@ -29,7 +29,7 @@ theme: jekyll-theme-clean-blog
 
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 4
   permalink: '/page/:num/'
   limit: 0
   sort_field: 'date'

@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Hoang Nguyen
+background: '/images/posts/business-finance.jpg'
 ---
 The world of finance today looks quite different from the world of Mr. Potter’s era. The core institutions remain intact, but the advent of new technologies has produced a financial world in which transactions occur in the blink of an eye.
 
