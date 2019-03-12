@@ -3,12 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+background: '/images/bg-index.jpg'
+pagination:
+  enabled: true
 ---
-
-<ul>
-        {% for post in posts %}
-          <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>

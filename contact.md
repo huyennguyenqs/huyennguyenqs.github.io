@@ -1,5 +1,6 @@
 ---
 layout: page
-title: Contact
+title: 
 permalink: /contact/
+background: '/images/contact.jpg'
 ---
