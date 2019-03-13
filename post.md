@@ -7,11 +7,8 @@ pagination:
   enabled: true
   collection: posts
 ---
-
-
-<!-- Post list2  -->
-
-{% for post in site.posts %}
+<!-- Post list1  -->
+{% for post in paginator.posts %}
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}</h2>
@@ -30,6 +27,8 @@ pagination:
     on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
 </article>
 {% endfor %}
+
+
 
 <!-- Pager buttons -->
 {% if paginator.total_pages > 1 %}
