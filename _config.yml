@@ -25,7 +25,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-clean-blog
+remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
 pagination:
   enabled: true
@@ -38,6 +38,7 @@ pagination:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
