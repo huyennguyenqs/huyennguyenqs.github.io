@@ -8,7 +8,7 @@ pagination:
   collection: posts
 ---
 <!-- Post list1  -->
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">{{ post.title }}</h2>
