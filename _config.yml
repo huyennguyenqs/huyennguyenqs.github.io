@@ -30,13 +30,14 @@ remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 pagination:
   enabled: true
   per_page: 4
+  trail:
+    before: 2
+    after: 2
   permalink: '/page/:num/'
   limit: 0
   sort_field: 'date'
   sort_reverse: true
 
-whitelist:
-  - jekyll-paginate-v2
 
 plugins:
   - jekyll-feed
