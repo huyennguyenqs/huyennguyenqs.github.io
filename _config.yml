@@ -27,11 +27,6 @@ github_username:  jekyll
 markdown: kramdown
 remote_theme: BlackrockDigital/startbootstrap-clean-blog-jekyll
 
-collections:
-  posts:
-    output: true
-    permalink: /post/:path/
-
 pagination:
   enabled: true
   per_page: 4
@@ -40,6 +35,8 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+whitelist:
+  - jekyll-paginate-v2
 
 plugins:
   - jekyll-feed
